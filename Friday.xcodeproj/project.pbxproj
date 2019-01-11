@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2A52FB4921E907230082CF41 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB4821E907230082CF41 /* main.m */; };
+		2A52FB5121E9073B0082CF41 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB5021E9073B0082CF41 /* Person.m */; };
+		2A52FB5421E9074E0082CF41 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB5321E9074E0082CF41 /* Student.m */; };
+		2A52FB5B21E90FDF0082CF41 /* Father.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB5A21E90FDF0082CF41 /* Father.m */; };
+		2A52FB5E21E915AB0082CF41 /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB5D21E915AB0082CF41 /* Teacher.m */; };
+		2A52FB6121E916040082CF41 /* Robot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB6021E916040082CF41 /* Robot.m */; };
+		2A52FB6421E91A7D0082CF41 /* Student+Teach.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A52FB6321E91A7D0082CF41 /* Student+Teach.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,19 @@
 /* Begin PBXFileReference section */
 		2A52FB4521E907230082CF41 /* Friday */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Friday; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A52FB4821E907230082CF41 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A52FB4F21E9073B0082CF41 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2A52FB5021E9073B0082CF41 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2A52FB5221E9074E0082CF41 /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		2A52FB5321E9074E0082CF41 /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		2A52FB5821E90F5C0082CF41 /* ParentProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParentProtocol.h; sourceTree = "<group>"; };
+		2A52FB5921E90FDF0082CF41 /* Father.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Father.h; sourceTree = "<group>"; };
+		2A52FB5A21E90FDF0082CF41 /* Father.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Father.m; sourceTree = "<group>"; };
+		2A52FB5C21E915AB0082CF41 /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		2A52FB5D21E915AB0082CF41 /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		2A52FB5F21E916040082CF41 /* Robot.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Robot.h; sourceTree = "<group>"; };
+		2A52FB6021E916040082CF41 /* Robot.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Robot.m; sourceTree = "<group>"; };
+		2A52FB6221E91A7D0082CF41 /* Student+Teach.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Student+Teach.h"; sourceTree = "<group>"; };
+		2A52FB6321E91A7D0082CF41 /* Student+Teach.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Student+Teach.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +77,19 @@
 			isa = PBXGroup;
 			children = (
 				2A52FB4821E907230082CF41 /* main.m */,
+				2A52FB4F21E9073B0082CF41 /* Person.h */,
+				2A52FB5021E9073B0082CF41 /* Person.m */,
+				2A52FB5221E9074E0082CF41 /* Student.h */,
+				2A52FB5321E9074E0082CF41 /* Student.m */,
+				2A52FB6221E91A7D0082CF41 /* Student+Teach.h */,
+				2A52FB6321E91A7D0082CF41 /* Student+Teach.m */,
+				2A52FB5821E90F5C0082CF41 /* ParentProtocol.h */,
+				2A52FB5921E90FDF0082CF41 /* Father.h */,
+				2A52FB5A21E90FDF0082CF41 /* Father.m */,
+				2A52FB5C21E915AB0082CF41 /* Teacher.h */,
+				2A52FB5D21E915AB0082CF41 /* Teacher.m */,
+				2A52FB5F21E916040082CF41 /* Robot.h */,
+				2A52FB6021E916040082CF41 /* Robot.m */,
 			);
 			path = Friday;
 			sourceTree = "<group>";
@@ -118,7 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A52FB6421E91A7D0082CF41 /* Student+Teach.m in Sources */,
+				2A52FB6121E916040082CF41 /* Robot.m in Sources */,
+				2A52FB5121E9073B0082CF41 /* Person.m in Sources */,
+				2A52FB5B21E90FDF0082CF41 /* Father.m in Sources */,
 				2A52FB4921E907230082CF41 /* main.m in Sources */,
+				2A52FB5E21E915AB0082CF41 /* Teacher.m in Sources */,
+				2A52FB5421E9074E0082CF41 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
